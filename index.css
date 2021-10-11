@@ -106,55 +106,20 @@ section{
     letter-spacing: 0.1rem;
 }
 @media only screen and (max-width: 600px) {
-    body{
-        font-size:90%;
+  
+     .fbox{
+     width: 400px;
+     max-width: 800px;
+        height: 400px;
+        margin: auto;      
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
       
-    }
-    section{
-        margin:10%;
-        display: flex;
-      justify-content: center;
-    }
-    .fbox{
-        width:100%;
-        max-width:100%;
-        height:auto;
-      
-    }
-    .fbox img{
-        display: block;
-        max-width: 100%;
-        width:100%;
-        height:auto;
-    }
-    .image{
-        top: 22%;
-        
-        
     }
     .image img{
-        max-width:70%;
-        position:relative;
-        left:46%;
+        position: fixed;
+        width:28%;
+        top: 120px;
+        z-index:1;
+    }
 
-    }
-    .detail{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        border-top: 0.1px solid rgb(209, 209, 209);  
-    }
-    .one{
-    text-align: center;
-    padding-right:3%;
-        
-    }
-    .two{
-        text-align: center;
-        padding-right:7.9%;
-    }
-    .three{
-        text-align: center;
-        padding-right:16.5%;
-    }
-  }
+}
